@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: wx-controller-authority
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    # 设置redis key的前缀空间每个模块的key的前缀空间都不一样
+    prefix: CAU
+
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8000/eureka
+server:
+  port: 9200
+
+
+feign:
+  hystrix:
+    enabled: true
+
+

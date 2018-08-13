@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CommitMessageInspectionProfile">
+    <profile version="1.0">
+      <inspection_tool class="CommitMessageSpellChecking" enabled="false" level="TYPO" enabled_by_default="false" />
+    </profile>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-service/wx-service-configuration-new/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/com-wx-spring-cloud-ps/pom.xml" />
+        <option value="$PROJECT_DIR$/comwxspringcloudallps/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-service/wx-service-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-service/wx-service-user-1/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-service/wx-service-user-new/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wxdomain/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

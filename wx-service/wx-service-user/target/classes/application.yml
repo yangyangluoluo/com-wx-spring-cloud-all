@@ -1,0 +1,35 @@
+
+spring:
+  application:
+    name: wx-service-user
+
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8000/eureka/
+
+server:
+  port: 9100
+
+
+jdbc:
+  # 第一个数据库
+  datasourceFirst:
+    url: jdbc:mysql://127.0.0.1:3306/wx_us?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  # 第二个数据库
+  datasourceSecond:
+    url: jdbc:mysql://127.0.0.1:3306/wx_us_follow?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+# mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.wx.service.entity
+  check-config-location: true
+  config-location: classpath:mybatis-config.xml

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="wx_us@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="wx_us">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="ag_gate_way"/>
+    <schema id="4" parent="1" name="canzhi"/>
+    <schema id="5" parent="1" name="fs-07-23"/>
+    <schema id="6" parent="1" name="fs-10-02"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="jeecmsv84"/>
+    <schema id="9" parent="1" name="jeecms_official"/>
+    <schema id="10" parent="1" name="mysql"/>
+    <schema id="11" parent="1" name="official"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="sys"/>
+    <schema id="14" parent="1" name="test"/>
+    <schema id="15" parent="1" name="ttee"/>
+    <schema id="16" parent="1" name="wordpress"/>
+    <schema id="17" parent="1" name="wx_study"/>
+    <schema id="18" parent="1" name="wx_us_follow"/>
+    <table id="19" parent="2" name="us_role"/>
+    <table id="20" parent="2" name="us_user"/>
+    <column id="21" parent="19" name="role_id">
+      <Position>1</Position>
+      <Comment>角色的Id</Comment>
+      <DataType>bigint(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="22" parent="19" name="role_name">
+      <Position>2</Position>
+      <Comment>角色的名称</Comment>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="23" parent="19" name="remark">
+      <Position>3</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="24" parent="19" name="status">
+      <Position>4</Position>
+      <Comment>1 启用 0 禁用</Comment>
+      <DataType>tinyint(3) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="25" parent="19" name="create_time">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="26" parent="19" name="update_time">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="27" parent="19" name="create_user_id">
+      <Position>7</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="28" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>role_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="29" parent="20" name="user_id">
+      <Position>1</Position>
+      <Comment>用户的自增Id </Comment>
+      <DataType>bigint(20) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="30" parent="20" name="login_name">
+      <Position>2</Position>
+      <Comment>用户名字登录的名字或者手机号码</Comment>
+      <DataType>char(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="31" parent="20" name="login_pass">
+      <Position>3</Position>
+      <Comment>用户的登录密码</Comment>
+      <DataType>char(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+    </column>
+    <column id="32" parent="20" name="status">
+      <Position>4</Position>
+      <Comment>用户的状态 1正常 0禁用</Comment>
+      <DataType>tinyint(3) unsigned zerofill|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;001&apos;</DefaultExpression>
+    </column>
+    <column id="33" parent="20" name="create_time">
+      <Position>5</Position>
+      <Comment>创建的时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="34" parent="20" name="update_time">
+      <Position>6</Position>
+      <Comment>更新的时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="35" parent="20" name="create_user_id">
+      <Position>7</Position>
+      <Comment>创建人ID</Comment>
+      <DataType>bigint(20) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="36" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

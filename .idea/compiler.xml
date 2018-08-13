@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="comwxspringcloudallps" />
+        <module name="eureka-server" />
+        <module name="wx-cache-redis" />
+        <module name="wx-configuration" />
+        <module name="wx-controller-authority" />
+        <module name="wx-domain-system" />
+        <module name="wx-domain-user" />
+        <module name="wx-gateway-admin" />
+        <module name="wx-infrastructure" />
+        <module name="wx-server" />
+        <module name="wx-service-configuration-new" />
+        <module name="wx-service-system" />
+        <module name="wx-service-user" />
+        <module name="wx-sleuth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com-wx-spring-cloud-all" target="1.8" />
+      <module name="com-wx-spring-cloud-ps" target="1.8" />
+      <module name="comwxspringcloudallps" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="wx-cache" target="1.8" />
+      <module name="wx-cache-redis" target="1.8" />
+      <module name="wx-configuration" target="1.8" />
+      <module name="wx-controller" target="1.8" />
+      <module name="wx-controller-authority" target="1.8" />
+      <module name="wx-domain" target="1.8" />
+      <module name="wx-domain-system" target="1.8" />
+      <module name="wx-domain-user" target="1.8" />
+      <module name="wx-eureka-server" target="1.8" />
+      <module name="wx-gateway" target="1.8" />
+      <module name="wx-gateway-admin" target="1.8" />
+      <module name="wx-infrastructure" target="1.8" />
+      <module name="wx-server" target="1.8" />
+      <module name="wx-service" target="1.8" />
+      <module name="wx-service-configuration" target="1.8" />
+      <module name="wx-service-configuration-new" target="1.8" />
+      <module name="wx-service-system" target="1.8" />
+      <module name="wx-service-user" target="1.8" />
+      <module name="wx-service-user-1" target="1.8" />
+      <module name="wx-service-user-new" target="1.8" />
+      <module name="wx-sleuth" target="1.8" />
+      <module name="wx-user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

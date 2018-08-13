@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: wx-configuration
+  cloud:
+      config:
+        server:
+          git:
+            # 配置git仓库的地址
+            uri: https://github.com/yangyangluoluo/wx-configuration
+            # git仓库地址下的相对地址，可以配置多个，用,分割。
+            search-paths: wx-configuration
+            # git仓库的账号
+            username: 469547259@qq.com
+            # git仓库的密码
+            password: Ljgsb123
+        profile: devljg
+
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8000/eureka
+server:
+  port: 9400
+
+
+#spring:
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8010
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: wx-gateway-admin
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id:  controller_authority
+          uri: lb://WX-CONTROLLER-AUTHORITY
+          order: 10000
+          predicates:
+            - Path=/**
+          filters:
+          - Retry=5
+#          - name: RequestRateLimiter
+#            args:
+#              redis-rate-limiter.replenishRate: 10
+#              redis-rate-limiter.burstCapacity: 20
+#              key-resolver: "#{@addressKeyResolver}"
+#          - StripPrefix = 1
+
+
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8000/eureka
+server:
+  port: 9300
+
+# 配置静态资源
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+  resources:
+    static-locations: classpath:/templates/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+
+
+
+
+
+
+

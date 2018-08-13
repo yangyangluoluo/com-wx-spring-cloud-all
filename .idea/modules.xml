@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com-wx-spring-cloud-all.iml" filepath="$PROJECT_DIR$/com-wx-spring-cloud-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-cache/wx-cache.iml" filepath="$PROJECT_DIR$/wx-cache/wx-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-cache/wx-cache-redis/wx-cache-redis.iml" filepath="$PROJECT_DIR$/wx-cache/wx-cache-redis/wx-cache-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-configuration/wx-configuration.iml" filepath="$PROJECT_DIR$/wx-configuration/wx-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-controller/wx-controller.iml" filepath="$PROJECT_DIR$/wx-controller/wx-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-controller/wx-controller-authority/wx-controller-authority.iml" filepath="$PROJECT_DIR$/wx-controller/wx-controller-authority/wx-controller-authority.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-domain/wx-domain.iml" filepath="$PROJECT_DIR$/wx-domain/wx-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-domain/wx-domain-system/wx-domain-system.iml" filepath="$PROJECT_DIR$/wx-domain/wx-domain-system/wx-domain-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-domain/wx-domain-user/wx-domain-user.iml" filepath="$PROJECT_DIR$/wx-domain/wx-domain-user/wx-domain-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-gateway/wx-gateway.iml" filepath="$PROJECT_DIR$/wx-gateway/wx-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-gateway/wx-gateway-admin/wx-gateway-admin.iml" filepath="$PROJECT_DIR$/wx-gateway/wx-gateway-admin/wx-gateway-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-infrastructure/wx-infrastructure.iml" filepath="$PROJECT_DIR$/wx-infrastructure/wx-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-server/wx-server.iml" filepath="$PROJECT_DIR$/wx-server/wx-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-service/wx-service.iml" filepath="$PROJECT_DIR$/wx-service/wx-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-service/wx-service-configuration-new/wx-service-configuration-new.iml" filepath="$PROJECT_DIR$/wx-service/wx-service-configuration-new/wx-service-configuration-new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-service/wx-service-system/wx-service-system.iml" filepath="$PROJECT_DIR$/wx-service/wx-service-system/wx-service-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-service/wx-service-user/wx-service-user.iml" filepath="$PROJECT_DIR$/wx-service/wx-service-user/wx-service-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-sleuth/wx-sleuth.iml" filepath="$PROJECT_DIR$/wx-sleuth/wx-sleuth.iml" />
+    </modules>
+  </component>
+</project>

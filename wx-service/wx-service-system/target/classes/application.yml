@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: wx-service-system
+
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8000/eureka/
+
+server:
+  port: 9110
