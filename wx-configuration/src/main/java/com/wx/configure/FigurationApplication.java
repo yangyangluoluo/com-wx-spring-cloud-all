@@ -19,7 +19,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 public class FigurationApplication {
 
     public static void main(String[] args){
-        // 程序启动以及个性化设置
+        // 程序启动以及个性化设置 测试GIT
         SpringApplication.run(FigurationApplication.class, args);
     }
 }
