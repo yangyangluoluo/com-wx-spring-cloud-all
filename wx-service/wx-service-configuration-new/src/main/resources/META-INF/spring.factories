@@ -1,0 +1,6 @@
+# 自动的引入的配置
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.wx.service.configuration.DataSourceConfig,\
+com.wx.service.configuration.MybatisDynamicConfig
+
+

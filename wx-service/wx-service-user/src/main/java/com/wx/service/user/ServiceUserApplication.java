@@ -21,7 +21,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableEurekaClient
 @EnableFeignClients
 @EnableDiscoveryClient
-@ComponentScan(basePackages = { "com.wx.service.user.serviceimpl","com.wx.service.configuration"})
+@ComponentScan(basePackages = { "com.wx.service.user.serviceimpl"})
 @MapperScan(basePackages = {"com.wx.service.user.mapper"})
 public class ServiceUserApplication {
 

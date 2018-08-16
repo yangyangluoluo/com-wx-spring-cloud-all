@@ -1,6 +1,5 @@
 package com.wx.controller.authority.hystrix;
 
-import com.wx.controller.authority.excepiton.ServiceHystrixException;
 import com.wx.controller.authority.service.user.UserRemote;
 import com.wx.domain.user.User;
 import com.wx.infrastruct.hystrix.RemoteHystrix;
